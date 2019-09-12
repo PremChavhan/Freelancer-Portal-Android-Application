@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="postAuthor" type="id" />
+    <item name="postTitle" type="id" />
+    <item name="postBody" type="id" />
+</resources>

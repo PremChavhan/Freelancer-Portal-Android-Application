@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="domywork.android.com.domywork">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/DoMyWork"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Splash_activity"
+            android:label="@string/DoMyWork"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_activity" />
+        <activity
+            android:name=".nav_activity"
+            android:label="@string/DoMyWork"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="domywork.android.com.domywork.Post_activity"
+           />
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "238790826288",
+    "firebase_url": "https://domywork-c9db6.firebaseio.com",
+    "project_id": "domywork-c9db6",
+    "storage_bucket": "domywork-c9db6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238790826288:android:3e5c7b4bb75e2202",
+        "android_client_info": {
+          "package_name": "domywork.android.com.domywork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238790826288-1tat02u6222j7a3mcefnqukect5jqobs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "domywork.android.com.domywork",
+            "certificate_hash": "dcc850e54a59ebf9cdeb2f08929f897bcbe6f334"
+          }
+        },
+        {
+          "client_id": "238790826288-5f0a9ja5u8tkjds81bih85ea53dg3fdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "domywork.android.com.domywork",
+            "certificate_hash": "0e3315b95fe37a3b072e77b156f465abf47a1875"
+          }
+        },
+        {
+          "client_id": "238790826288-ibng6h6sm9mlda6nvhbpu88gn5cmb1j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhGDZSaFzjn7dR34VsVahParJ9yEAS1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238790826288-ibng6h6sm9mlda6nvhbpu88gn5cmb1j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

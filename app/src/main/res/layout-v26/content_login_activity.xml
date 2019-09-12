@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/Verify"
+        style="@android:style/Widget.Button"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sndotp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="123dp"
+        android:text="@string/verify" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="313dp"
+        android:ems="10"
+        android:hint="@string/enter_phone_no"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/sndotp"
+        style="@android:style/Widget.Button"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:text="@string/send_otp" />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/commentForm"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:layout_below="@+id/postTextLayout"
+
+        android:layout_marginTop="20dp"
+
+        android:weightSum="1.0">
+
+
+
+        <EditText
+
+            android:id="@+id/fieldCommentText"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="0.8"
+
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"
+
+            android:hint="Write a comment..."
+            android:inputType=""
+            android:importantForAutofill="no" />
+
+
+
+        <Button
+
+            android:id="@+id/buttonPostComment"
+
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+
+            android:layout_width="0dp"
+
+            android:layout_weight="0.2"
+
+            android:layout_height="wrap_content"
+
+            android:text="Post"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recyclerPostComments"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/commentForm"
+
+        tools:listitem="@layout/item_comment" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <EditText
+
+        android:id="@+id/fieldWork"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Work"
+
+        android:maxLines="1" />
+
+    <EditText
+
+        android:id="@+id/fieldName"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/fieldWork"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Help Seeker Name"
+
+        android:maxLines="1" />
+
+    <EditText
+
+        android:id="@+id/fieldNo"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/fieldName"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Contact No"
+
+        android:inputType="phone"
+
+        android:maxLines="1" />
+
+    <EditText
+
+        android:id="@+id/fieldPlace"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/fieldNo"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Place of work"
+
+        android:inputType="text|number"
+        android:maxLines="1" />
+
+    <EditText
+
+        android:id="@+id/fieldAmount"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/fieldPlace"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Amount"
+
+        android:inputType="number"
+
+        android:maxLines="1" />
+
+
+    <EditText
+
+        android:id="@+id/fieldBody"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/fieldAmount"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_marginRight="16dp"
+
+        android:layout_marginBottom="5dp"
+
+        android:hint="Description of work"
+
+        android:inputType="textMultiLine"
+
+        android:maxLines="10"
+
+        android:scrollHorizontally="false" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/fabSubmitPost"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_margin="16dp"
+
+        android:src="@android:drawable/ic_dialog_email"/>
+
+
+
+</RelativeLayout>
